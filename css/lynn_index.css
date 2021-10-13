@@ -861,6 +861,40 @@
     }
 }
 
+.lynn_page3_item1>span {
+    background-color: #fff;
+    color: #a0472e;
+    font-size: 34px;
+    letter-spacing: 6px;
+    line-height: 50px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+@media (max-width: 630px) {
+    .lynn_page3_item1>span {
+        background-color: #fff;
+        color: #a0472e;
+        font-size: 28px;
+        letter-spacing: 4px;
+        line-height: 40px;
+        font-weight: 600;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 414px) {
+    .lynn_page3_item1>span {
+        background-color: #fff;
+        color: #a0472e;
+        font-size: 21px;
+        letter-spacing: 2px;
+        line-height: 30px;
+        font-weight: 600;
+        margin: 6px;
+    }
+}
+
 @media (max-width: 630px) {
     .lynn_page3_item1>img {
         width: 20px;
