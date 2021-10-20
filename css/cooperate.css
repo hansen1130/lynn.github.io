@@ -293,32 +293,18 @@
 .lynnCooperate_page10 {
     width: 100%;
     max-width: 830px;
-    background: #573a1e;
-    background: -moz-linear-gradient(left, #573a1e 0%, #76522f 10%, #ad8018 40%, #a8842c 55%, #9c7240 80%, #945e2e 95%);
-    background: -webkit-linear-gradient(left, #573a1e 0%, #76522f 10%, #ad8018 40%, #a8842c 55%, #9c7240 80%, #945e2e 95%);
-    background: linear-gradient(to right, #573a1e 0%, #76522f 10%, #ad8018 40%, #a8842c 55%, #9c7240 80%, #945e2e 95%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#573a1e', endColorstr='#945e2e', GradientType=1);
-    -webkit-border-radius: 40px;
-    -moz-border-radius: 40px;
-    border-radius: 40px;
-    margin:30px auto;
+    margin: 30px auto;
 }
 
 @media (max-width: 830px) {
     .lynnCooperate_page10 {
         width: 90%;
-        -webkit-border-radius: 30px;
-        -moz-border-radius: 30px;
-        border-radius: 30px;
     }
 }
 
 @media (max-width: 530px) {
     .lynnCooperate_page10 {
         width: 90%;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        border-radius: 20px;
         margin-top: 20px;
     }
 }
