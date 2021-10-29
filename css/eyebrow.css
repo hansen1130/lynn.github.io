@@ -2478,16 +2478,23 @@
 .lynnEyelash_page3 {
     width: 100%;
     max-width: 1000px;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
-    align-items: flex-start;
     margin: auto;
 }
 
 @media (max-width: 840px) {
     .lynnEyelash_page3 {
+        width: 90%;
+        max-width: 1000px;
+    }
+}
+
+.lynnEyelash_page3>img {
+    width: 100%;
+    max-width: 1000px;
+}
+
+@media (max-width: 840px) {
+    .lynnEyelash_page3>img {
         width: 90%;
         max-width: 1000px;
     }
