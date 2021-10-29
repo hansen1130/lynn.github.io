@@ -325,6 +325,7 @@
 }
 
 @media (max-width: 1246px) {
+
     .lynnEyebrow_page1_content1_text,
     .lynnEyebrow_page1_content1_text1,
     .lynnEyebrow_page1_content1_text2 {
@@ -338,6 +339,7 @@
 }
 
 @media (max-width: 1182px) {
+
     .lynnEyebrow_page1_content1_text,
     .lynnEyebrow_page1_content1_text1,
     .lynnEyebrow_page1_content1_text2 {
@@ -351,6 +353,7 @@
 }
 
 @media (max-width: 500px) {
+
     .lynnEyebrow_page1_content1_text,
     .lynnEyebrow_page1_content1_text1,
     .lynnEyebrow_page1_content1_text2 {
@@ -364,6 +367,7 @@
 }
 
 @media (max-width: 416px) {
+
     .lynnEyebrow_page1_content1_text,
     .lynnEyebrow_page1_content1_text1,
     .lynnEyebrow_page1_content1_text2 {
@@ -883,6 +887,7 @@
     letter-spacing: 8px;
     font-weight: 600;
     padding-top: 50px;
+    line-height: 36px;
 }
 
 @media (max-width: 630px) {
@@ -892,6 +897,7 @@
         letter-spacing: 4px;
         font-weight: 600;
         padding-top: 50px;
+        line-height: 24px;
     }
 }
 
@@ -902,7 +908,27 @@
         letter-spacing: 2px;
         font-weight: 600;
         padding-top: 30px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
+        line-height: 21px;
+    }
+}
+
+.lynnEyebrow_page4_title>span {
+    font-size: 24px;
+    letter-spacing: 4px;
+}
+
+@media (max-width: 630px) {
+    .lynnEyebrow_page4_title>span {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+}
+
+@media (max-width: 414px) {
+    .lynnEyebrow_page4_title>span {
+        font-size: 16px;
+        letter-spacing: 2px;
     }
 }
 
@@ -2142,5 +2168,509 @@
         width: 100%;
         max-width: 170px;
         margin: 5px;
+    }
+}
+
+.lynnEyebrow_page5_img1 {
+    position: relative;
+
+}
+
+.lynnEyebrow_page5_img1_1 {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lynnEyebrow_page5_img1_1 img {
+    width: 100%;
+    max-width: 700px;
+}
+
+@media (max-width: 900px) {
+    .lynnEyebrow_page5_img1_1 img {
+        width: 70%;
+        max-width: 700px;
+    }
+}
+
+.lynnEyebrow_page5_img {
+    margin: 50px 0;
+}
+
+@media (max-width: 414px) {
+    .lynnEyebrow_page5_img {
+        margin: 20px 0;
+    }
+}
+
+.lynnEyebrow_page5_img img {
+    width: 100%;
+    max-width: 997px;
+}
+
+.lynnEyelash_page1_title {
+    color: #805649;
+    font-size: 40px;
+    letter-spacing: 8px;
+    font-weight: 600;
+    margin-left: 3em;
+    text-indent: -3em;
+}
+
+@media (max-width: 630px) {
+    .lynnEyelash_page1_title {
+        font-size: 28px;
+        letter-spacing: 4px;
+    }
+}
+
+@media (max-width: 414px) {
+    .lynnEyelash_page1_title {
+        font-size: 21px;
+        letter-spacing: 2px;
+    }
+}
+
+.lynnEyelash_page1_item {
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.lynnEyelash_page1_item1 {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px;
+}
+
+.lynnEyelash_page1_item1_title {
+    color: #fff;
+    font-size: 21px;
+    letter-spacing: 4px;
+    line-height: 28px;
+    font-weight: 600;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #805649;
+    padding: 5px 0;
+}
+
+@media (max-width: 414px) {
+    .lynnEyelash_page1_item1_title {
+        font-size: 18px;
+        letter-spacing: 4px;
+        line-height: 24px;
+    }
+}
+
+.lynnEyelash_page1_item1_title>img {
+    margin-right: 20px;
+}
+
+@media (max-width: 414px) {
+    .lynnEyelash_page1_item1_title>img {
+        width: 25px;
+    }
+}
+
+.lynnEyelash_page1_item1_text {
+    color: #805649;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 28px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.lynnEyelash_page2 {
+    width: 90%;
+    max-width: 1000px;
+    padding: 30px;
+    margin: auto;
+    border: #80594c 2px solid;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+}
+
+.lynnEyelash_page2_item1 {
+    margin-bottom: 30px;
+}
+
+.lynnEyelash_page2_item1_title {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.lynnEyelash_page2_line {
+    width: 10%;
+    border-bottom: 1px dashed #80594c;
+}
+
+.lynnEyelash_page2_item1_title1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-end;
+    color: #80594c;
+    font-size: 21px;
+    letter-spacing: 4px;
+    font-weight: 600;
+    background-color: #fff;
+    padding: 10px 20px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+
+@media (max-width: 870px) {
+    .lynnEyelash_page2_item1_title1 {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+}
+
+@media (max-width: 500px) {
+    .lynnEyelash_page2_item1_title1 {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+}
+
+.lynnEyelash_page2_item1_title1>span {
+    font-size: 16px;
+}
+
+@media (max-width: 870px) {
+    .lynnEyelash_page2_item1_title1>span {
+        font-size: 14px;
+    }
+}
+
+.lynnEyelash_page2_item1_title2 {
+    color: #ab1c24;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+@media (max-width: 870px) {
+    .lynnEyelash_page2_item1_title2 {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+}
+
+@media (max-width: 500px) {
+    .lynnEyelash_page2_item1_title2 {
+        font-size: 14px;
+        letter-spacing: 0px;
+    }
+}
+
+.lynnEyelash_page2_item1_title2>span {
+    font-size: 21px;
+}
+
+@media (max-width: 870px) {
+    .lynnEyelash_page2_item1_title2>span {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 500px) {
+    .lynnEyelash_page2_item1_title2>span {
+        font-size: 16px;
+    }
+}
+
+.lynnEyelash_page2_item1_text {
+    width: 90%;
+    max-width: 550px;
+    margin: auto;
+    color: #80594c;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 36px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+@media (max-width: 870px) {
+    .lynnEyelash_page2_item1_text {
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 26px;
+    }
+}
+
+@media (max-width: 500px) {
+    .lynnEyelash_page2_item1_text {
+        font-size: 14px;
+        letter-spacing: 1px;
+        line-height: 21px;
+        text-align: left;
+    }
+}
+
+.lynnEyelash_page2_item2 {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    color: #fff;
+    font-size: 21px;
+    letter-spacing: 4px;
+    line-height: 36px;
+    font-weight: 600;
+    background-color: #80594c;
+    padding: 30px 40px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    text-indent: -1em;
+}
+
+@media (max-width: 870px) {
+    .lynnEyelash_page2_item2 {
+        width: 90%;
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+}
+
+@media (max-width: 500px) {
+    .lynnEyelash_page2_item2 {
+        width: 90%;
+        font-size: 14px;
+        letter-spacing: 2px;
+        line-height: 24px;
+        padding: 10px 20px;
+        text-align: left;
+    }
+}
+
+.lynnEyelash_page2_item2>span {
+    font-size: 36px;
+}
+
+@media (max-width: 500px) {
+    .lynnEyelash_page2_item2>span {
+        font-size: 24px;
+    }
+}
+
+.lynnEyelash_page3 {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    margin: auto;
+}
+
+@media (max-width: 840px) {
+    .lynnEyelash_page3 {
+        width: 90%;
+        max-width: 1000px;
+    }
+}
+
+.lynnEyelash_page4 {
+    width: 100%;
+    padding-bottom: 50px;
+    background-color: #eae6e3;
+}
+
+@media (max-width: 840px) {
+    .lynnEyelash_page4 {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+}
+
+.lynnEyelash_title {
+    color: #805649;
+    font-size: 40px;
+    letter-spacing: 8px;
+    font-weight: 600;
+    padding-top: 50px;
+    line-height: 56px;
+}
+
+@media (max-width: 630px) {
+    .lynnEyelash_title {
+        color: #805649;
+        font-size: 28px;
+        letter-spacing: 4px;
+        font-weight: 600;
+        padding-top: 50px;
+        line-height: 36px;
+    }
+}
+
+@media (max-width: 414px) {
+    .lynnEyelash_title {
+        color: #805649;
+        font-size: 21px;
+        letter-spacing: 2px;
+        font-weight: 600;
+        padding-top: 30px;
+        margin-bottom: 10px;
+        line-height: 28px;
+    }
+}
+
+.lynnEyelash_page5_item1 {
+    width: 100%;
+    max-width: 700px;
+    background: #49191c;
+    background: -moz-linear-gradient(left, #49191c 0%, #76522f 10%, #9c8046 40%, #ab884a 55%, #76522f 80%, #76522f 80%, #49191c 95%);
+    background: -webkit-linear-gradient(left, #49191c 0%, #76522f 10%, #9c8046 40%, #ab884a 55%, #76522f 80%, #76522f 80%, #49191c 95%);
+    background: linear-gradient(to right, #49191c 0%, #76522f 10%, #9c8046 40%, #ab884a 55%, #76522f 80%, #76522f 80%, #49191c 95%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#49191c', endColorstr='#49191c', GradientType=1);
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 6px;
+    line-height: 50px;
+    font-weight: 600;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+@media (max-width: 650px) {
+    .lynnEyelash_page5_item1 {
+        width: 90%;
+        max-width: 700px;
+        font-size: 18px;
+        letter-spacing: 2px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 501px) {
+    .lynnEyelash_page5_item1 {
+        width: 90%;
+        max-width: 700px;
+        font-size: 16px;
+        letter-spacing: 2px;
+        line-height: 30px;
+        font-weight: 600;
+    }
+}
+
+.lynnEyelash_page5_item1>img {
+    margin: 0 10px;
+}
+
+@media (max-width: 501px) {
+    .lynnEyelash_page5_item1>img {
+        width: 20px;
+        margin: 0 5px;
+    }
+}
+
+.lynnEyelash_page5_text {
+    width: 100%;
+    max-width: 1100px;
+    color: #805649;
+    font-size: 21px;
+    letter-spacing: 4px;
+    line-height: 46px;
+    font-weight: 600;
+    margin: 20px auto;
+}
+
+@media (max-width: 630px) {
+    .lynnEyelash_page5_text {
+        width: 90%;
+        max-width: 1100px;
+        color: #805649;
+        font-size: 18px;
+        letter-spacing: 2px;
+        line-height: 30px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 414px) {
+    .lynnEyelash_page5_text {
+        width: 90%;
+        max-width: 1100px;
+        color: #805649;
+        font-size: 16px;
+        letter-spacing: 0px;
+        line-height: 30px;
+        font-weight: 600;
+    }
+}
+
+.lynnEyelash_page2_title {
+    color: #fff;
+    font-size: 36px;
+    letter-spacing: 6px;
+    line-height: 80px;
+    text-shadow: 4px 4px 0.2em #000;
+    font-weight: 600;
+}
+
+.lynnEyelash_page2_title>ul>li {
+    margin: 10px 0;
+}
+
+
+.lynnEyelash_page2_title ul li span {
+    border: 1px solid #fff;
+    padding: 5px 30px;
+}
+
+@media (max-width: 519px) {
+    .lynnEyelash_page2_title ul li span {
+        font-size: 16px;
+        border: 1px solid #fff;
+        padding: 5px 10px;
+    }
+}
+
+@media (max-width: 944px) {
+    .lynnEyelash_page2_title {
+        color: #fff;
+        font-size: 21px;
+        letter-spacing: 2px;
+        line-height: 40px;
+        text-shadow: 4px 4px 0.2em #000;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 519px) {
+    .lynnEyelash_page2_title {
+        color: #fff;
+        font-size: 18px;
+        letter-spacing: 2px;
+        line-height: 30px;
+        text-shadow: 4px 4px 0.2em #000;
+        font-weight: 600;
     }
 }
