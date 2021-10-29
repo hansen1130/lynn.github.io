@@ -2481,13 +2481,6 @@
     margin: auto;
 }
 
-@media (max-width: 840px) {
-    .lynnEyelash_page3 {
-        width: 90%;
-        max-width: 1000px;
-    }
-}
-
 .lynnEyelash_page3>img {
     width: 100%;
     max-width: 1000px;
