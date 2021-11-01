@@ -1,0 +1,1718 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Noto Serif TC", serif, andy-money, "Noto Sans TC", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif;
+}
+
+.lynnEyebrow {
+    width: 100%;
+    background-color: #e4e0db;
+    text-align: center;
+}
+
+.lynnSheNail_page1 {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    background-image: url(../img/shenail_banner1.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #f2ede7;
+}
+
+.lynnSheNail_page1_background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.sheNail_video {
+
+    position: relative;
+    padding-bottom: 60%;
+}
+
+.sheNail_video video,
+.sheNail_video_mobile video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 100%;
+}
+
+.lynnEyebrow_page2_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100%;
+    max-width: 800px;
+}
+
+.lynnEyelash_page2 {
+    width: 90%;
+    max-width: 1000px;
+    padding: 30px;
+    margin: auto;
+    border: #80594c 2px solid;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+}
+
+.lynnEyelash_page2_item1 {
+    margin-bottom: 30px;
+}
+
+.lynnEyelash_page2_item1_title {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.lynnEyelash_page2_line {
+    width: 10%;
+    border-bottom: 1px dashed #80594c;
+}
+
+.lynnEyelash_page2_item1_title1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-end;
+    color: #80594c;
+    font-size: 21px;
+    letter-spacing: 4px;
+    font-weight: 600;
+    background-color: #fff;
+    padding: 10px 20px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+
+@media (max-width: 870px) {
+    .lynnEyelash_page2_item1_title1 {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+}
+
+@media (max-width: 500px) {
+    .lynnEyelash_page2_item1_title1 {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+}
+
+.lynnEyelash_page2_item1_title1>span {
+    font-size: 16px;
+}
+
+@media (max-width: 870px) {
+    .lynnEyelash_page2_item1_title1>span {
+        font-size: 14px;
+    }
+}
+
+.lynnEyelash_page2_item1_title2 {
+    color: #ab1c24;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+@media (max-width: 870px) {
+    .lynnEyelash_page2_item1_title2 {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+}
+
+@media (max-width: 500px) {
+    .lynnEyelash_page2_item1_title2 {
+        font-size: 14px;
+        letter-spacing: 0px;
+    }
+}
+
+.lynnEyelash_page2_item1_title2>span {
+    font-size: 21px;
+}
+
+@media (max-width: 870px) {
+    .lynnEyelash_page2_item1_title2>span {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 500px) {
+    .lynnEyelash_page2_item1_title2>span {
+        font-size: 16px;
+    }
+}
+
+.lynnEyelash_page2_item1_text {
+    width: 90%;
+    max-width: 550px;
+    margin: auto;
+    color: #80594c;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 36px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.lynnEyelash_page2_item2 {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    color: #fff;
+    font-size: 21px;
+    letter-spacing: 4px;
+    line-height: 36px;
+    font-weight: 600;
+    background-color: #80594c;
+    padding: 30px 40px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    text-indent: -1em;
+}
+
+@media (max-width: 870px) {
+    .lynnEyelash_page2_item2 {
+        width: 90%;
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+}
+
+@media (max-width: 500px) {
+    .lynnEyelash_page2_item2 {
+        width: 90%;
+        font-size: 14px;
+        letter-spacing: 2px;
+        line-height: 24px;
+        padding: 10px 20px;
+        text-align: left;
+    }
+}
+
+.lynnEyelash_page2_item2>span {
+    font-size: 36px;
+}
+
+@media (max-width: 500px) {
+    .lynnEyelash_page2_item2>span {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 870px) {
+    .lynnEyelash_page2_item1_text {
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 26px;
+    }
+}
+
+@media (max-width: 500px) {
+    .lynnEyelash_page2_item1_text {
+        font-size: 14px;
+        letter-spacing: 1px;
+        line-height: 21px;
+        text-align: left;
+    }
+}
+
+.lynnEyelash_page2_title {
+    color: #fff;
+    font-size: 36px;
+    letter-spacing: 6px;
+    line-height: 80px;
+    text-shadow: 4px 4px 0.2em #000;
+    font-weight: 600;
+}
+
+.lynnEyelash_page2_title>ul>li {
+    margin: 10px 0;
+}
+
+
+.lynnEyelash_page2_title ul li span {
+    border: 1px solid #fff;
+    padding: 5px 30px;
+}
+
+@media (max-width: 519px) {
+    .lynnEyelash_page2_title ul li span {
+        font-size: 16px;
+        border: 1px solid #fff;
+        padding: 5px 10px;
+    }
+}
+
+@media (max-width: 944px) {
+    .lynnEyelash_page2_title {
+        color: #fff;
+        font-size: 21px;
+        letter-spacing: 2px;
+        line-height: 40px;
+        text-shadow: 4px 4px 0.2em #000;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 519px) {
+    .lynnEyelash_page2_title {
+        color: #fff;
+        font-size: 18px;
+        letter-spacing: 2px;
+        line-height: 30px;
+        text-shadow: 4px 4px 0.2em #000;
+        font-weight: 600;
+    }
+}
+
+.lynnEyebrow_page6 {
+    width: 100%;
+    background-color: #e4e0db;
+    background-image: url(../img/eyebrow/eyebrow_bg1.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+@media (max-width: 414px) {
+    .lynnEyebrow_page6 {
+        width: 100%;
+        background-color: #e4e0db;
+        background-image: url(../img/eyebrow/eyebrow_bg1.webp);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        padding: 20px 0;
+    }
+}
+
+.lynnEyelash_page1_title {
+    color: #805649;
+    font-size: 40px;
+    letter-spacing: 8px;
+    font-weight: 600;
+    margin-left: 3em;
+    text-indent: -3em;
+}
+
+@media (max-width: 630px) {
+    .lynnEyelash_page1_title {
+        font-size: 28px;
+        letter-spacing: 4px;
+    }
+}
+
+@media (max-width: 414px) {
+    .lynnEyelash_page1_title {
+        font-size: 21px;
+        letter-spacing: 2px;
+    }
+}
+
+.lynnEyelash_page1_item {
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.lynnEyelash_page1_item1 {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px;
+}
+
+.lynnEyelash_page1_item1_title {
+    color: #fff;
+    font-size: 21px;
+    letter-spacing: 4px;
+    line-height: 28px;
+    font-weight: 600;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #805649;
+    padding: 5px 0;
+}
+
+@media (max-width: 414px) {
+    .lynnEyelash_page1_item1_title {
+        font-size: 18px;
+        letter-spacing: 4px;
+        line-height: 24px;
+    }
+}
+
+.lynnEyelash_page1_item1_title>img {
+    margin-right: 20px;
+}
+
+@media (max-width: 414px) {
+    .lynnEyelash_page1_item1_title>img {
+        width: 25px;
+    }
+}
+
+.lynnEyelash_page1_item1_text {
+    color: #805649;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 28px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.lynnEyebrow_page4 {
+    width: 100%;
+    background-color: #ece8e2;
+    padding-bottom: 50px;
+}
+
+.lynnEyelash_title {
+    color: #805649;
+    font-size: 40px;
+    letter-spacing: 8px;
+    font-weight: 600;
+    padding-top: 50px;
+    line-height: 56px;
+}
+
+@media (max-width: 630px) {
+    .lynnEyelash_title {
+        color: #805649;
+        font-size: 28px;
+        letter-spacing: 4px;
+        font-weight: 600;
+        padding-top: 50px;
+        line-height: 36px;
+    }
+}
+
+@media (max-width: 414px) {
+    .lynnEyelash_title {
+        color: #805649;
+        font-size: 21px;
+        letter-spacing: 2px;
+        font-weight: 600;
+        padding-top: 30px;
+        margin-bottom: 10px;
+        line-height: 28px;
+    }
+}
+
+.lynnSheNail_page12_priceList_icon img {
+    width: 100%;
+    max-width: 190px;
+}
+
+@media (max-width: 660px) {
+    .lynnSheNail_page12_priceList_icon img {
+        max-width: 150px;
+    }
+}
+
+.lynnEyebrow_page4_text {
+    color: #805649;
+    font-size: 21px;
+    letter-spacing: 4px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+@media (max-width: 630px) {
+    .lynnEyebrow_page4_text {
+        color: #805649;
+        font-size: 18px;
+        letter-spacing: 4px;
+        line-height: 30px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 414px) {
+    .lynnEyebrow_page4_text {
+        color: #805649;
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 30px;
+        font-weight: 600;
+        padding: 0 10px;
+    }
+}
+
+.lynnEyebrow_page4_text>span {
+    color: #d07228;
+    font-size: 24px;
+}
+
+@media (max-width: 630px) {
+    .lynnEyebrow_page4_text>span {
+        color: #d07228;
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 414px) {
+    .lynnEyebrow_page4_text>span {
+        color: #d07228;
+        font-size: 18px;
+    }
+}
+
+.lynnEyebrow_page7 {
+    width: 100%;
+    background-color: #e4e0db;
+    background-image: url(../img/eyebrow/eyebrow_bg2.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.lynnSheNail_page6_table img {
+    width: 90%;
+    max-width: 1000px;
+}
+
+.lynnEyebrow_page11 {
+    width: 100%;
+    background-color: #e4e0db;
+    background-image: url(../img/shenail_bg4.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.lynnEyelash_page4 {
+    width: 100%;
+    padding-bottom: 50px;
+    background-color: #eae6e3;
+}
+
+@media (max-width: 840px) {
+    .lynnEyelash_page4 {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+}
+
+.lynnEyebrow_page4_title {
+    color: #805649;
+    font-size: 40px;
+    letter-spacing: 8px;
+    font-weight: 600;
+    padding-top: 50px;
+    line-height: 36px;
+}
+
+@media (max-width: 630px) {
+    .lynnEyebrow_page4_title {
+        color: #805649;
+        font-size: 28px;
+        letter-spacing: 4px;
+        font-weight: 600;
+        padding-top: 50px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 414px) {
+    .lynnEyebrow_page4_title {
+        color: #805649;
+        font-size: 21px;
+        letter-spacing: 2px;
+        font-weight: 600;
+        padding-top: 30px;
+        margin-bottom: 10px;
+        line-height: 21px;
+    }
+}
+
+.lynnEyebrow_page4_title>span {
+    font-size: 24px;
+    letter-spacing: 4px;
+}
+
+@media (max-width: 630px) {
+    .lynnEyebrow_page4_title>span {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+}
+
+@media (max-width: 414px) {
+    .lynnEyebrow_page4_title>span {
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+}
+
+.lynnEyebrow_page10_step {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    background-color: #ebebeb;
+    margin: 20px auto;
+    -webkit-border-top-left-radius: 70px;
+    -webkit-border-bottom-left-radius: 70px;
+    -moz-border-radius-topleft: 70px;
+    -moz-border-radius-bottomleft: 70px;
+    border-top-left-radius: 70px;
+    border-bottom-left-radius: 70px;
+}
+
+@media (max-width: 840px) {
+    .lynnEyebrow_page10_step {
+        width: 90%;
+        max-width: 1000px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-content: center;
+        align-items: center;
+        background-color: #ebebeb;
+        margin: 20px auto;
+        -webkit-border-top-left-radius: 70px;
+        -webkit-border-bottom-left-radius: 70px;
+        -moz-border-radius-topleft: 70px;
+        -moz-border-radius-bottomleft: 70px;
+        border-top-left-radius: 70px;
+        border-bottom-left-radius: 70px;
+    }
+}
+
+.lynnEyebrow_page10_step_img {
+    margin-top: 3px;
+}
+
+@media (max-width: 840px) {
+    .lynnEyebrow_page10_step_img img {
+        width: 100px;
+    }
+}
+
+@media (max-width: 630px) {
+    .lynnEyebrow_page10_step_img img {
+        width: 70px;
+    }
+}
+
+.lynnEyebrow_page10_step_content {
+    margin-left: 30px;
+    padding: 10px 30px 10px 0;
+}
+
+@media (max-width: 630px) {
+    .lynnEyebrow_page10_step_content {
+        margin-left: 10px;
+        padding: 10px 10px 10px 0;
+    }
+}
+
+.lynnEyebrow_page10_step_content>ul>li {
+    color: #8f733f;
+    font-size: 36px;
+    letter-spacing: 6px;
+    text-align: left;
+    font-weight: 600;
+}
+
+@media (max-width: 840px) {
+    .lynnEyebrow_page10_step_content>ul>li {
+        color: #8f733f;
+        font-size: 28px;
+        letter-spacing: 4px;
+        text-align: left;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 630px) {
+    .lynnEyebrow_page10_step_content>ul>li {
+        color: #8f733f;
+        font-size: 21px;
+        letter-spacing: 2px;
+        text-align: left;
+        font-weight: 600;
+    }
+}
+
+.lynnEyebrow_page10_step_content>ul>li:nth-child(2) {
+    color: #4d4d4d;
+    font-size: 21px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-family: Microsoft JhengHei, "微軟正黑體";
+}
+
+@media (max-width: 840px) {
+    .lynnEyebrow_page10_step_content>ul>li:nth-child(2) {
+        color: #4d4d4d;
+        font-size: 16px;
+        letter-spacing: 2px;
+        margin-top: 10px;
+        font-weight: 400;
+        font-family: Microsoft JhengHei, "微軟正黑體";
+    }
+}
+
+@media (max-width: 630px) {
+    .lynnEyebrow_page10_step_content>ul>li:nth-child(2) {
+        color: #4d4d4d;
+        font-size: 14px;
+        letter-spacing: 1px;
+        margin-top: 10px;
+        font-weight: 400;
+        font-family: Microsoft JhengHei, "微軟正黑體";
+    }
+}
+
+.lynnEyebrow_page10_step_content>ul>li span {
+    color: #a8333a;
+    font-family: Microsoft JhengHei, "微軟正黑體";
+    font-weight: 500;
+}
+
+.lynnEyelash_page3 {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.lynnEyelash_page3>img {
+    width: 100%;
+    max-width: 1000px;
+}
+
+@media (max-width: 840px) {
+    .lynnEyelash_page3>img {
+        width: 90%;
+        max-width: 1000px;
+    }
+}
+
+.lynnEyebrow_page5 {
+    width: 100%;
+}
+
+.lynn_page2_title>img {
+    width: 100%;
+    max-width: 540px;
+    margin-top: -100px;
+}
+
+@media (max-width: 765px) {
+    .lynn_page2_title>img {
+        width: 100%;
+        max-width: 400px;
+        margin-top: -100px;
+    }
+}
+
+@media (max-width: 414px) {
+    .lynn_page2_title>img {
+        width: 100%;
+        max-width: 300px;
+        margin-top: -60px;
+    }
+}
+
+.lynn_page3_content {
+    width: 100%;
+    max-width: 1200px;
+    padding-bottom: 50px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #90594c;
+    margin: 50px auto;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    border-radius: 80px;
+}
+
+@media (max-width: 1200px) {
+    .lynn_page3_content {
+        width: 90%;
+        max-width: 1200px;
+        padding-bottom: 50px;
+        border-width: 3px;
+        border-style: solid;
+        border-color: #90594c;
+        margin: 50px auto;
+        -webkit-border-radius: 80px;
+        -moz-border-radius: 80px;
+        border-radius: 80px;
+    }
+}
+
+@media (max-width: 630px) {
+    .lynn_page3_content {
+        width: 90%;
+        max-width: 1200px;
+        padding-bottom: 30px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #90594c;
+        margin: 30px auto;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        border-radius: 50px;
+    }
+}
+
+@media (max-width: 414px) {
+    .lynn_page3_content {
+        width: 90%;
+        max-width: 1200px;
+        padding-bottom: 20px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #90594c;
+        margin: 30px auto;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+    }
+}
+
+.lynnEyebrow_page5_title1 {
+    color: #81594c;
+    font-size: 40px;
+    letter-spacing: 8px;
+    font-weight: 600;
+    padding-top: 50px;
+}
+
+@media (max-width: 630px) {
+    .lynnEyebrow_page5_title1 {
+        color: #81594c;
+        font-size: 28px;
+        letter-spacing: 4px;
+        font-weight: 600;
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 414px) {
+    .lynnEyebrow_page5_title1 {
+        color: #81594c;
+        font-size: 21px;
+        letter-spacing: 2px;
+        font-weight: 600;
+        padding-top: 30px;
+        margin-bottom: 20px;
+    }
+}
+
+.lynnEyebrow_page5_title1>span {
+    padding: 7px;
+    height: auto;
+    background-image: url(../img/lynn_icon11.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 3px right 4px;
+    background-size: contain;
+    margin: 0 10px;
+}
+
+@media (max-width: 630px) {
+    .lynnEyebrow_page5_title1>span {
+        padding: 7px;
+        height: auto;
+        background-image: url(../img/lynn_icon11.svg);
+        background-repeat: no-repeat;
+        background-position: bottom 3px right 3px;
+        background-size: contain;
+        margin: 0 6px;
+    }
+}
+
+@media (max-width: 414px) {
+    .lynnEyebrow_page5_title1>span {
+        padding: 7px;
+        height: auto;
+        background-image: url(../img/lynn_icon11.svg);
+        background-repeat: no-repeat;
+        background-position: bottom 3px right 0px;
+        background-size: contain;
+        margin: 0 4px;
+    }
+}
+
+.lynn_page3_item {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+@media (max-width: 414px) {
+    .lynn_page3_item {
+        width: 100%;
+        max-width: 1200px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin: 20px auto;
+    }
+}
+
+.lynn_page3_item1 {
+    background-color: #fff;
+    color: #a0472e;
+    font-size: 24px;
+    letter-spacing: 6px;
+    line-height: 50px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+@media (max-width: 630px) {
+    .lynn_page3_item1 {
+        background-color: #fff;
+        color: #a0472e;
+        font-size: 21px;
+        letter-spacing: 4px;
+        line-height: 40px;
+        font-weight: 600;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 414px) {
+    .lynn_page3_item1 {
+        background-color: #fff;
+        color: #a0472e;
+        font-size: 16px;
+        letter-spacing: 2px;
+        line-height: 30px;
+        font-weight: 600;
+        margin: 6px;
+    }
+}
+
+.lynn_page3_item1>span {
+    background-color: #fff;
+    color: #a0472e;
+    font-size: 34px;
+    letter-spacing: 6px;
+    line-height: 50px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+@media (max-width: 630px) {
+    .lynn_page3_item1>span {
+        background-color: #fff;
+        color: #a0472e;
+        font-size: 28px;
+        letter-spacing: 4px;
+        line-height: 40px;
+        font-weight: 600;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 414px) {
+    .lynn_page3_item1>span {
+        background-color: #fff;
+        color: #a0472e;
+        font-size: 21px;
+        letter-spacing: 2px;
+        line-height: 30px;
+        font-weight: 600;
+        margin: 6px;
+    }
+}
+
+@media (max-width: 630px) {
+    .lynn_page3_item1>img {
+        width: 20px;
+    }
+}
+
+@media (max-width: 414px) {
+    .lynn_page3_item1>img {
+        width: 15px;
+    }
+}
+
+.lynn_page1_text {
+    color: #90594c;
+    font-size: 21px;
+    letter-spacing: 4px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+@media (max-width: 630px) {
+    .lynn_page1_text {
+        color: #90594c;
+        font-size: 18px;
+        letter-spacing: 4px;
+        line-height: 30px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 414px) {
+    .lynn_page1_text {
+        color: #90594c;
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 30px;
+        font-weight: 600;
+    }
+}
+
+.lynn_page1_text>span {
+    font-size: 24px;
+    border-bottom: 2px solid #90594c;
+    padding-bottom: 2px;
+}
+
+@media (max-width: 630px) {
+    .lynn_page1_text>span {
+        font-size: 21px;
+        border-bottom: 2px solid #90594c;
+        padding-bottom: 2px;
+    }
+}
+
+@media (max-width: 414px) {
+    .lynn_page1_text>span {
+        font-size: 18px;
+        border-bottom: 2px solid #90594c;
+        padding-bottom: 2px;
+    }
+}
+
+.lynnEyebrow_page5_img1 {
+    position: relative;
+
+}
+
+.lynnEyebrow_page5_img {
+    margin: 50px 0;
+}
+
+@media (max-width: 414px) {
+    .lynnEyebrow_page5_img {
+        margin: 20px 0;
+    }
+}
+
+.lynnEyebrow_page5_img img {
+    width: 100%;
+    max-width: 997px;
+}
+
+.lynnEyebrow_page5_img1_1 {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lynnEyebrow_page5_img1_1 img {
+    width: 100%;
+    max-width: 700px;
+}
+
+@media (max-width: 900px) {
+    .lynnEyebrow_page5_img1_1 img {
+        width: 70%;
+        max-width: 700px;
+    }
+}
+
+.lynn_page3_button a {
+    margin: 0 20px;
+}
+
+@media (max-width: 900px) {
+    .lynn_page3_button img {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 766px) {
+    .lynn_page3_button img {
+        width: 100%;
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 655px) {
+    .lynn_page3_button img {
+        width: 100%;
+        max-width: 250px;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 414px) {
+    .lynn_page3_button img {
+        width: 100%;
+        max-width: 200px;
+        margin: 2px 0;
+    }
+}
+
+.lynnEyelash_page5_item1 {
+    width: 100%;
+    max-width: 700px;
+    background: #49191c;
+    background: -moz-linear-gradient(left, #49191c 0%, #76522f 10%, #9c8046 40%, #ab884a 55%, #76522f 80%, #76522f 80%, #49191c 95%);
+    background: -webkit-linear-gradient(left, #49191c 0%, #76522f 10%, #9c8046 40%, #ab884a 55%, #76522f 80%, #76522f 80%, #49191c 95%);
+    background: linear-gradient(to right, #49191c 0%, #76522f 10%, #9c8046 40%, #ab884a 55%, #76522f 80%, #76522f 80%, #49191c 95%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#49191c', endColorstr='#49191c', GradientType=1);
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 6px;
+    line-height: 50px;
+    font-weight: 600;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+@media (max-width: 650px) {
+    .lynnEyelash_page5_item1 {
+        width: 90%;
+        max-width: 700px;
+        font-size: 18px;
+        letter-spacing: 2px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 501px) {
+    .lynnEyelash_page5_item1 {
+        width: 90%;
+        max-width: 700px;
+        font-size: 16px;
+        letter-spacing: 2px;
+        line-height: 30px;
+        font-weight: 600;
+    }
+}
+
+.lynnEyelash_page5_item1>img {
+    margin: 0 10px;
+}
+
+@media (max-width: 501px) {
+    .lynnEyelash_page5_item1>img {
+        width: 20px;
+        margin: 0 5px;
+    }
+}
+
+.lynnEyelash_page5_text {
+    width: 100%;
+    max-width: 1100px;
+    color: #805649;
+    font-size: 21px;
+    letter-spacing: 4px;
+    line-height: 46px;
+    font-weight: 600;
+    margin: 20px auto;
+}
+
+@media (max-width: 630px) {
+    .lynnEyelash_page5_text {
+        width: 90%;
+        max-width: 1100px;
+        color: #805649;
+        font-size: 18px;
+        letter-spacing: 2px;
+        line-height: 30px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 414px) {
+    .lynnEyelash_page5_text {
+        width: 90%;
+        max-width: 1100px;
+        color: #805649;
+        font-size: 16px;
+        letter-spacing: 0px;
+        line-height: 30px;
+        font-weight: 600;
+    }
+}
+
+.lynnSheNail_page10_content {
+    width: 100%;
+    max-width: 1000px;
+    padding-bottom: 50px;
+    background-image: url(../img/shenail_frame.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 1000px) {
+    .lynnSheNail_page10_content {
+        width: 100%;
+        max-width: 1000px;
+        padding-bottom: 50px;
+        background-image: url();
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 645px) {
+    .lynnSheNail_page10_content {
+        width: 100%;
+        max-width: 1000px;
+        padding-bottom: 0px;
+        background-image: url();
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+}
+
+.lynn_page2_item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 414px) {
+    .lynn_page2_item {
+        width: 100%;
+        max-width: 330px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 765px) {
+    .lynn_page2_item>img {
+        width: 150px;
+
+    }
+}
+
+@media (max-width: 414px) {
+    .lynn_page2_item>img {
+        width: 130px;
+    }
+}
+
+.lynnSheNail_page10_text {
+    margin: auto;
+    width: 100%;
+    max-width: 500px;
+    color: #91594c;
+    font-size: 21px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+@media (max-width: 500px) {
+    .lynnSheNail_page10_text {
+        margin: auto;
+        width: 100%;
+        max-width: 375px;
+        color: #91594c;
+        font-size: 18px;
+        letter-spacing: 2px;
+        font-weight: 600;
+        line-height: 36px;
+    }
+}
+
+.lynnSheNail_page10_text>ul>li:nth-child(3) {
+    line-height: 0px;
+    text-align: right;
+    margin-top: -10px;
+    margin-right: 90px;
+}
+
+@media (max-width: 500px) {
+    .lynnSheNail_page10_text>ul>li:nth-child(3) {
+        line-height: 0px;
+        text-align: right;
+        margin-top: -5px;
+        margin-right: 35px;
+    }
+}
+
+.lynnSheNail_page10_text>ul {
+    margin-bottom: 50px;
+}
+
+@media (max-width: 645px) {
+    .lynnSheNail_page10_text>ul {
+        margin-bottom: 10px;
+    }
+}
+
+.lynnSheNail_page10_text img {
+    width: 100%;
+    max-width: 80px;
+    margin: 0 10px;
+}
+
+.lynn_page2_title1 {
+    color: #ba482d;
+    font-size: 21px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+@media (max-width: 650px) {
+    .lynn_page2_title1 {
+        display: none;
+        color: #ba482d;
+        font-size: 21px;
+        letter-spacing: 2px;
+        line-height: 40px;
+        font-weight: 600;
+    }
+}
+
+@media (min-width: 650px) {
+    .lynn_page2_title1_mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 650px) {
+    .lynn_page2_title1_mobile {
+        display: block;
+        color: #ba482d;
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 30px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+.lynnEyebrow_page12 {
+    width: 100%;
+
+}
+
+@media (max-width: 630px) {
+    .lynnEyebrow_page12 {
+        width: 100%;
+    }
+}
+
+.lynnEyebrow_page12_img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.lynnEyebrow_page12_img img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+}
+
+@media (max-width: 1600px) {
+    .lynnEyebrow_page12_img img {
+        width: 100%;
+        max-width: 200px;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 440px) {
+    .lynnEyebrow_page12_img img {
+        width: 100%;
+        max-width: 170px;
+        margin: 5px;
+    }
+}
+
+.lynnEyebrow_page9_title {
+    margin: 20px;
+}
+
+.lynnEyebrow_page9_title>img {
+    width: 100%;
+    max-width: 320px;
+}
+
+@media (max-width: 630px) {
+    .lynnEyebrow_page9_title>img {
+        width: 100%;
+        max-width: 260px;
+    }
+}
+
+.lynn_page6 {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.embed-container iframe {
+    width: 650px;
+    height: 350px;
+}
+
+@media (max-width: 650px) {
+    .embed-container iframe {
+        width: 500px;
+        height: 270px;
+    }
+}
+
+@media (max-width: 500px) {
+    .embed-container iframe {
+        width: 375px;
+        height: 200px;
+    }
+}
+
+.lynn_page1_title {
+    color: #90594c;
+    font-size: 40px;
+    letter-spacing: 8px;
+    font-weight: 600;
+    padding-top: 50px;
+}
+
+@media (max-width: 630px) {
+    .lynn_page1_title {
+        color: #90594c;
+        font-size: 28px;
+        letter-spacing: 4px;
+        font-weight: 600;
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 414px) {
+    .lynn_page1_title {
+        color: #90594c;
+        font-size: 21px;
+        letter-spacing: 2px;
+        font-weight: 600;
+        padding-top: 30px;
+        margin-bottom: 20px;
+    }
+}
+
+.lynn_page3_text {
+    color: #90594c;
+    font-size: 24px;
+    letter-spacing: 4px;
+    line-height: 50px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+@media (max-width: 630px) {
+    .lynn_page3_text {
+        color: #90594c;
+        font-size: 18px;
+        letter-spacing: 4px;
+        line-height: 30px;
+        font-weight: 600;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 414px) {
+    .lynn_page3_text {
+        color: #90594c;
+        font-size: 16px;
+        letter-spacing: 2px;
+        line-height: 30px;
+        font-weight: 600;
+        margin-top: 10px;
+        text-align: left;
+        width: 90%;
+        margin: auto;
+    }
+}
+
+.lynn_page3_text span {
+    color: #d17232;
+    font-size: 32px;
+    letter-spacing: 4px;
+    line-height: 50px;
+    font-weight: 600;
+    border-bottom: 2px solid #d17232;
+    padding-bottom: 2px;
+}
+
+@media (max-width: 630px) {
+    .lynn_page3_text span {
+        color: #d17232;
+        font-size: 21px;
+        letter-spacing: 4px;
+        line-height: 30px;
+        font-weight: 600;
+        border-bottom: 2px solid #d17232;
+        padding-bottom: 2px;
+    }
+}
+
+@media (max-width: 414px) {
+    .lynn_page3_text span {
+        color: #d17232;
+        font-size: 18px;
+        letter-spacing: 2px;
+        line-height: 30px;
+        font-weight: 600;
+        margin-top: 10px;
+        text-align: left;
+        width: 90%;
+        margin: auto;
+        border-bottom: 1px solid #d17232;
+        padding-bottom: 1px;
+    }
+}
+
+.lynn_page6_item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    margin: 100px 0;
+}
+
+@media (max-width: 1285px) {
+    .lynn_page6_item {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: flex-start;
+        margin: 50px 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .lynn_page6_item {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: flex-start;
+        margin: 30px 0;
+    }
+}
+
+.lynn_page6_item>ul {
+    margin: 10px;
+}
+
+.lynn_page6_item>ul>li>img {
+    width: 100%;
+    max-width: 140px;
+}
+
+@media (max-width: 1285px) {
+    .lynn_page6_item>ul>li>img {
+        width: 100%;
+        max-width: 100px;
+    }
+}
+
+.lynn_page6_item>ul>li {
+    color: #90594c;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+@media (max-width: 1285px) {
+    .lynn_page6_item>ul>li {
+        color: #90594c;
+        font-size: 16px;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+}
+
+.lynn_page6_button img {
+    width: 100%;
+    max-width: 285px;
+}
+
+@media (max-width: 630px) {
+    .lynn_page6_button img {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+.lynn_page6_text {
+    color: #90594c;
+    font-size: 30px;
+    letter-spacing: 6px;
+    font-weight: 600;
+    padding-top: 50px;
+}
+
+@media (max-width: 800px) {
+    .lynn_page6_text {
+        color: #90594c;
+        font-size: 21px;
+        letter-spacing: 3px;
+        font-weight: 600;
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 532px) {
+    .lynn_page6_text {
+        color: #90594c;
+        font-size: 18px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 414px) {
+    .lynn_page6_text {
+        width: 90%;
+        margin: auto;
+        color: #90594c;
+        font-size: 18px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        padding-top: 20px;
+        text-align: left;
+    }
+}
+
+#gotop {
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20%;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    padding-top: 10px;
+    background-color: #C3623B;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 40px;
+    -o-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+#gotop:hover {
+    background-color: #603813;
+    -o-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+@media (max-width: 480px) {
+    #gotop {
+        display: none;
+        position: fixed;
+        right: 10px;
+        bottom: 20%;
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+        padding-top: 4px;
+        font-size: 16px;
+        background: rgba(195, 98, 59, .5);
+        color: white;
+        cursor: pointer;
+        border-radius: 40px;
+        -o-transition: all .3s linear;
+        -webkit-transition: all .3s linear;
+        -moz-transition: all .3s linear;
+        transition: all .3s linear;
+    }
+}
+
+@media (max-width: 480px) {
+    #gotop:hover {
+        background: rgba(195, 98, 59, 1);
+        -o-transition: all .3s linear;
+        -webkit-transition: all .3s linear;
+        -moz-transition: all .3s linear;
+        transition: all .3s linear;
+    }
+}
