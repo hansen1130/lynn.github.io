@@ -245,6 +245,12 @@
     background-size: 20%;
 }
 
+@media (max-width: 536px) {
+    .lynnDepilation_page1_why {
+        background-image: url();
+    }
+}
+
 .lynnDepilation_page1_why_title {
     color: #ab6f35;
     font-size: 2.5vmin;
@@ -489,7 +495,7 @@
     .lynnEyebrow_page6_content1>img {
         margin: 5px;
         width: 100%;
-        max-width: 120px;
+        max-width: 130px;
     }
 }
 
@@ -1510,6 +1516,12 @@
     padding: 20px 50px;
 }
 
+@media (max-width: 510px) {
+    .lynnSkin_page1_content2 {
+        display: none;
+    }
+}
+
 @media (max-width: 1075px) {
     .lynnSkin_page1_content2 {
         font-size: 18px;
@@ -1536,7 +1548,6 @@
     .lynnSkin_page1_content2 {
         width: 90%;
     }
-
 }
 
 .lynnSkin_page1_content2>ul>li:nth-child(1) {
@@ -1576,6 +1587,90 @@
 
 @media (max-width: 771px) {
     .lynnSkin_page1_content2 img {
+        width: 100px;
+    }
+}
+
+.lynnSkin_page1_content3 {
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 6px;
+    font-weight: 400;
+    line-height: 36px;
+    margin: auto;
+}
+
+@media (min-width: 510px) {
+    .lynnSkin_page1_content3 {
+        display: none;
+    }
+}
+
+@media (max-width: 1075px) {
+    .lynnSkin_page1_content3 {
+        font-size: 18px;
+        letter-spacing: 4px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 771px) {
+    .lynnSkin_page1_content3 {
+        font-size: 16px;
+        letter-spacing: 2px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 851px) {
+    .lynnSkin_page1_content3 {
+        padding: 10px 30px;
+    }
+}
+
+@media (max-width: 661px) {
+    .lynnSkin_page1_content3 {
+        width: 90%;
+    }
+}
+
+.lynnSkin_page1_content3>ul>li:nth-child(1) {
+    text-align: center;
+}
+
+.lynnSkin_page1_content3>ul>li span {
+    font-size: 4vmin;
+}
+
+.lynnSkin_page1_content3>ul>li:nth-child(4) {
+    margin-top: -6px;
+}
+
+@media (max-width: 1075px) {
+    .lynnSkin_page1_content3>ul>li:nth-child(4) {
+        margin-top: -8px;
+    }
+}
+
+@media (max-width: 771px) {
+    .lynnSkin_page1_content3>ul>li:nth-child(4) {
+        margin-top: -6px;
+    }
+}
+
+.lynnSkin_page1_content3 img {
+    width: 200px;
+    margin-left: -30px;
+}
+
+@media (max-width: 1075px) {
+    .lynnSkin_page1_content3 img {
+        width: 150px;
+    }
+}
+
+@media (max-width: 771px) {
+    .lynnSkin_page1_content3 img {
         width: 100px;
     }
 }
@@ -1731,6 +1826,13 @@
     margin-bottom: -5px;
 }
 
+@media (max-width: 680px) {
+    .lynndepilation_page7_price p {
+        font-size: 3vmin;
+        margin-bottom: -2px;
+    }
+}
+
 .lynndepilation_page7_price1 {
     color: #80594c;
     font-size: 2.5vmin;
@@ -1767,6 +1869,13 @@
     font-size: 1.5vmin;
     letter-spacing: .1vmin;
     margin-bottom: -5px;
+}
+
+@media (max-width: 680px) {
+    .lynndepilation_page7_price1 p {
+        font-size: 3vmin;
+        margin-bottom: -2px;
+    }
 }
 
 .lynndepilation_page7_img1 {
@@ -2021,26 +2130,24 @@
     letter-spacing: 8px;
     font-weight: 600;
     padding-top: 50px;
+    line-height: 60px;
 }
 
 @media (max-width: 630px) {
     .lynn_page1_title {
-        color: #90594c;
         font-size: 28px;
         letter-spacing: 4px;
-        font-weight: 600;
         padding-top: 50px;
     }
 }
 
 @media (max-width: 414px) {
     .lynn_page1_title {
-        color: #90594c;
         font-size: 21px;
         letter-spacing: 2px;
-        font-weight: 600;
         padding-top: 10px;
         margin-bottom: 10px;
+        line-height: 36px;
     }
 }
 
@@ -2569,7 +2676,7 @@
         line-height: 30px;
         font-weight: 600;
         margin-top: 10px;
-        text-align: center;
+        text-align: left;
         width: 90%;
         margin: auto;
     }
