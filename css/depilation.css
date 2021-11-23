@@ -1871,93 +1871,108 @@
         left: 29%;
         width: 10%;
     }
+}
 
-    @media (max-width: 1240px) {
-        .lynndepilation_page7_line2 {
-            display: none;
-        }
+@media (max-width: 1240px) {
+    .lynndepilation_page7_line2 {
+        display: none;
     }
+}
 
+.lynndepilation_page7_line3 {
+    position: absolute;
+    top: 427px;
+    right: 24%;
+    width: 18%;
+    border-bottom: 1px solid #b88a5e;
+}
+
+@media (max-width: 1566px) {
     .lynndepilation_page7_line3 {
-        position: absolute;
-        top: 427px;
-        right: 24%;
-        width: 18%;
-        border-bottom: 1px solid #b88a5e;
+        right: 26%;
+        width: 15%;
     }
+}
 
-    @media (max-width: 1566px) {
-        .lynndepilation_page7_line3 {
-            right: 26%;
-            width: 15%;
-        }
+@media (max-width: 1240px) {
+    .lynndepilation_page7_line3 {
+        display: none;
     }
+}
 
-    @media (max-width: 1240px) {
-        .lynndepilation_page7_line3 {
-            display: none;
-        }
-    }
+.lynndepilation_page8 {
+    width: 100%;
+    padding: 50px 0;
+}
 
+@media (max-width: 680px) {
     .lynndepilation_page8 {
-        width: 100%;
-        padding: 50px 0;
+        padding: 20px 0;
     }
+}
 
-    @media (max-width: 680px) {
-        .lynndepilation_page8 {
-            padding: 20px 0;
-        }
-    }
+.lynn_page1_text {
+    color: #90594c;
+    font-size: 21px;
+    letter-spacing: 4px;
+    line-height: 50px;
+    font-weight: 600;
+}
 
+@media (max-width: 630px) {
     .lynn_page1_text {
         color: #90594c;
-        font-size: 21px;
+        font-size: 18px;
         letter-spacing: 4px;
-        line-height: 50px;
+        line-height: 30px;
         font-weight: 600;
     }
+}
 
-    @media (max-width: 630px) {
-        .lynn_page1_text {
-            color: #90594c;
-            font-size: 18px;
-            letter-spacing: 4px;
-            line-height: 30px;
-            font-weight: 600;
-        }
+@media (max-width: 414px) {
+    .lynn_page1_text {
+        color: #90594c;
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 30px;
+        font-weight: 600;
     }
+}
 
-    @media (max-width: 414px) {
-        .lynn_page1_text {
-            color: #90594c;
-            font-size: 16px;
-            letter-spacing: 1px;
-            line-height: 30px;
-            font-weight: 600;
-        }
-    }
+.lynn_page1_text>span {
+    font-size: 24px;
+    color: #e36b0e;
+    padding-bottom: 2px;
+}
 
+@media (max-width: 630px) {
     .lynn_page1_text>span {
-        font-size: 24px;
-        color: #e36b0e;
-        padding-bottom: 2px;
+        font-size: 21px;
     }
+}
 
-    @media (max-width: 630px) {
-        .lynn_page1_text>span {
-            font-size: 21px;
-        }
+@media (max-width: 414px) {
+    .lynn_page1_text>span {
+        font-size: 18px;
     }
+}
 
-    @media (max-width: 414px) {
-        .lynn_page1_text>span {
-            font-size: 18px;
-        }
-    }
+.lynn_page3_content {
+    width: 100%;
+    max-width: 1200px;
+    padding-bottom: 50px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #90594c;
+    margin: 50px auto;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    border-radius: 80px;
+}
 
+@media (max-width: 1200px) {
     .lynn_page3_content {
-        width: 100%;
+        width: 90%;
         max-width: 1200px;
         padding-bottom: 50px;
         border-width: 3px;
@@ -1968,115 +1983,113 @@
         -moz-border-radius: 80px;
         border-radius: 80px;
     }
+}
 
-    @media (max-width: 1200px) {
-        .lynn_page3_content {
-            width: 90%;
-            max-width: 1200px;
-            padding-bottom: 50px;
-            border-width: 3px;
-            border-style: solid;
-            border-color: #90594c;
-            margin: 50px auto;
-            -webkit-border-radius: 80px;
-            -moz-border-radius: 80px;
-            border-radius: 80px;
-        }
+@media (max-width: 630px) {
+    .lynn_page3_content {
+        width: 90%;
+        max-width: 1200px;
+        padding-bottom: 30px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #90594c;
+        margin: 30px auto;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        border-radius: 50px;
     }
+}
 
-    @media (max-width: 630px) {
-        .lynn_page3_content {
-            width: 90%;
-            max-width: 1200px;
-            padding-bottom: 30px;
-            border-width: 2px;
-            border-style: solid;
-            border-color: #90594c;
-            margin: 30px auto;
-            -webkit-border-radius: 50px;
-            -moz-border-radius: 50px;
-            border-radius: 50px;
-        }
+@media (max-width: 414px) {
+    .lynn_page3_content {
+        width: 90%;
+        max-width: 1200px;
+        padding-bottom: 20px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #90594c;
+        margin: 30px auto;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
     }
+}
 
-    @media (max-width: 414px) {
-        .lynn_page3_content {
-            width: 90%;
-            max-width: 1200px;
-            padding-bottom: 20px;
-            border-width: 2px;
-            border-style: solid;
-            border-color: #90594c;
-            margin: 30px auto;
-            -webkit-border-radius: 30px;
-            -moz-border-radius: 30px;
-            border-radius: 30px;
-        }
-    }
+.lynn_page1_title {
+    color: #90594c;
+    font-size: 40px;
+    letter-spacing: 8px;
+    font-weight: 600;
+    padding-top: 50px;
+}
 
+@media (max-width: 630px) {
     .lynn_page1_title {
         color: #90594c;
-        font-size: 40px;
-        letter-spacing: 8px;
+        font-size: 28px;
+        letter-spacing: 4px;
         font-weight: 600;
         padding-top: 50px;
     }
+}
 
-    @media (max-width: 630px) {
-        .lynn_page1_title {
-            color: #90594c;
-            font-size: 28px;
-            letter-spacing: 4px;
-            font-weight: 600;
-            padding-top: 50px;
-        }
+@media (max-width: 414px) {
+    .lynn_page1_title {
+        color: #90594c;
+        font-size: 21px;
+        letter-spacing: 2px;
+        font-weight: 600;
+        padding-top: 10px;
+        margin-bottom: 10px;
     }
+}
 
-    @media (max-width: 414px) {
-        .lynn_page1_title {
-            color: #90594c;
-            font-size: 21px;
-            letter-spacing: 2px;
-            font-weight: 600;
-            padding-top: 10px;
-            margin-bottom: 10px;
-        }
-    }
+.lynn_page1_title>span {
+    padding: 7px;
+    height: auto;
+    background-image: url(../img/lynn_icon11.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 3px right 4px;
+    background-size: contain;
+    margin: 0 10px;
+}
 
+@media (max-width: 630px) {
     .lynn_page1_title>span {
         padding: 7px;
         height: auto;
         background-image: url(../img/lynn_icon11.svg);
         background-repeat: no-repeat;
-        background-position: bottom 3px right 4px;
+        background-position: bottom 3px right 3px;
         background-size: contain;
-        margin: 0 10px;
+        margin: 0 6px;
     }
+}
 
-    @media (max-width: 630px) {
-        .lynn_page1_title>span {
-            padding: 7px;
-            height: auto;
-            background-image: url(../img/lynn_icon11.svg);
-            background-repeat: no-repeat;
-            background-position: bottom 3px right 3px;
-            background-size: contain;
-            margin: 0 6px;
-        }
+@media (max-width: 414px) {
+    .lynn_page1_title>span {
+        padding: 7px;
+        height: auto;
+        background-image: url(../img/lynn_icon11.svg);
+        background-repeat: no-repeat;
+        background-position: bottom 3px right 0px;
+        background-size: contain;
+        margin: 0 4px;
     }
+}
 
-    @media (max-width: 414px) {
-        .lynn_page1_title>span {
-            padding: 7px;
-            height: auto;
-            background-image: url(../img/lynn_icon11.svg);
-            background-repeat: no-repeat;
-            background-position: bottom 3px right 0px;
-            background-size: contain;
-            margin: 0 4px;
-        }
-    }
+.lynn_page3_item {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
 
+@media (max-width: 414px) {
     .lynn_page3_item {
         width: 100%;
         max-width: 1200px;
@@ -2085,660 +2098,677 @@
         justify-content: center;
         align-content: center;
         align-items: center;
-        margin: 50px auto;
+        margin: 20px auto;
     }
+}
 
-    @media (max-width: 414px) {
-        .lynn_page3_item {
-            width: 100%;
-            max-width: 1200px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-content: center;
-            align-items: center;
-            margin: 20px auto;
-        }
-    }
+.lynn_page3_item1 {
+    background-color: #fff;
+    color: #a0472e;
+    font-size: 24px;
+    letter-spacing: 6px;
+    line-height: 50px;
+    font-weight: 600;
+    margin: 10px;
+}
 
+@media (max-width: 630px) {
     .lynn_page3_item1 {
         background-color: #fff;
         color: #a0472e;
-        font-size: 24px;
-        letter-spacing: 6px;
-        line-height: 50px;
+        font-size: 21px;
+        letter-spacing: 4px;
+        line-height: 40px;
         font-weight: 600;
         margin: 10px;
     }
+}
 
-    @media (max-width: 630px) {
-        .lynn_page3_item1 {
-            background-color: #fff;
-            color: #a0472e;
-            font-size: 21px;
-            letter-spacing: 4px;
-            line-height: 40px;
-            font-weight: 600;
-            margin: 10px;
-        }
+@media (max-width: 414px) {
+    .lynn_page3_item1 {
+        background-color: #fff;
+        color: #a0472e;
+        font-size: 16px;
+        letter-spacing: 2px;
+        line-height: 30px;
+        font-weight: 600;
+        margin: 6px;
     }
+}
 
-    @media (max-width: 414px) {
-        .lynn_page3_item1 {
-            background-color: #fff;
-            color: #a0472e;
-            font-size: 16px;
-            letter-spacing: 2px;
-            line-height: 30px;
-            font-weight: 600;
-            margin: 6px;
-        }
-    }
+.lynn_page3_item1>span {
+    background-color: #fff;
+    color: #a0472e;
+    font-size: 34px;
+    letter-spacing: 6px;
+    line-height: 50px;
+    font-weight: 600;
+    margin: 10px;
+}
 
+@media (max-width: 630px) {
     .lynn_page3_item1>span {
         background-color: #fff;
         color: #a0472e;
-        font-size: 34px;
-        letter-spacing: 6px;
-        line-height: 50px;
+        font-size: 28px;
+        letter-spacing: 4px;
+        line-height: 40px;
         font-weight: 600;
         margin: 10px;
     }
+}
 
-    @media (max-width: 630px) {
-        .lynn_page3_item1>span {
-            background-color: #fff;
-            color: #a0472e;
-            font-size: 28px;
-            letter-spacing: 4px;
-            line-height: 40px;
-            font-weight: 600;
-            margin: 10px;
-        }
+@media (max-width: 414px) {
+    .lynn_page3_item1>span {
+        background-color: #fff;
+        color: #a0472e;
+        font-size: 21px;
+        letter-spacing: 2px;
+        line-height: 30px;
+        font-weight: 600;
+        margin: 6px;
     }
+}
 
-    @media (max-width: 414px) {
-        .lynn_page3_item1>span {
-            background-color: #fff;
-            color: #a0472e;
-            font-size: 21px;
-            letter-spacing: 2px;
-            line-height: 30px;
-            font-weight: 600;
-            margin: 6px;
-        }
+@media (max-width: 630px) {
+    .lynn_page3_item1>img {
+        width: 20px;
     }
+}
 
-    @media (max-width: 630px) {
-        .lynn_page3_item1>img {
-            width: 20px;
-        }
+@media (max-width: 414px) {
+    .lynn_page3_item1>img {
+        width: 15px;
     }
+}
 
-    @media (max-width: 414px) {
-        .lynn_page3_item1>img {
-            width: 15px;
-        }
-    }
+.lynnEyebrow_page5_img1 {
+    position: relative;
 
-    .lynnEyebrow_page5_img1 {
-        position: relative;
+}
 
-    }
+.lynnEyebrow_page5_img {
+    margin: 50px 0;
+}
 
+@media (max-width: 414px) {
     .lynnEyebrow_page5_img {
-        margin: 50px 0;
+        margin: 20px 0;
     }
+}
 
-    @media (max-width: 414px) {
-        .lynnEyebrow_page5_img {
-            margin: 20px 0;
-        }
-    }
+.lynnEyebrow_page5_img img {
+    width: 100%;
+    max-width: 997px;
+}
 
-    .lynnEyebrow_page5_img img {
-        width: 100%;
-        max-width: 997px;
-    }
+.lynnEyebrow_page5_img1_1 {
+    position: absolute;
+    width: 100%;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+@media (max-width: 646px) {
     .lynnEyebrow_page5_img1_1 {
         position: absolute;
         width: 100%;
-        top: 60%;
+        top: 20%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
+}
 
-    @media (max-width: 646px) {
-        .lynnEyebrow_page5_img1_1 {
-            position: absolute;
-            width: 100%;
-            top: 20%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-    }
+.lynnEyebrow_page5_img1_1 img {
+    width: 100%;
+    max-width: 600px;
+}
 
+@media (max-width: 900px) {
     .lynnEyebrow_page5_img1_1 img {
+        width: 70%;
+        max-width: 500px;
+    }
+}
+
+.lynn_page3_button a {
+    margin: 0 20px;
+}
+
+@media (max-width: 900px) {
+    .lynn_page3_button img {
         width: 100%;
-        max-width: 600px;
+        max-width: 300px;
     }
+}
 
-    @media (max-width: 900px) {
-        .lynnEyebrow_page5_img1_1 img {
-            width: 70%;
-            max-width: 500px;
-        }
+@media (max-width: 766px) {
+    .lynn_page3_button img {
+        width: 100%;
+        max-width: 250px;
     }
+}
 
-    .lynn_page3_button a {
-        margin: 0 20px;
+@media (max-width: 655px) {
+    .lynn_page3_button img {
+        width: 100%;
+        max-width: 250px;
+        margin: 10px 0;
     }
+}
 
-    @media (max-width: 900px) {
-        .lynn_page3_button img {
-            width: 100%;
-            max-width: 300px;
-        }
+@media (max-width: 414px) {
+    .lynn_page3_button img {
+        width: 100%;
+        max-width: 200px;
+        margin: 2px 0;
     }
+}
 
-    @media (max-width: 766px) {
-        .lynn_page3_button img {
-            width: 100%;
-            max-width: 250px;
-        }
-    }
+.lynnSheNail_page11 {
+    width: 100%;
+    padding: 50px 0;
+    background-image: url(../img/shenail_bg7.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
 
-    @media (max-width: 655px) {
-        .lynn_page3_button img {
-            width: 100%;
-            max-width: 250px;
-            margin: 10px 0;
-        }
-    }
-
-    @media (max-width: 414px) {
-        .lynn_page3_button img {
-            width: 100%;
-            max-width: 200px;
-            margin: 2px 0;
-        }
-    }
-
+@media (max-width: 600px) {
     .lynnSheNail_page11 {
         width: 100%;
-        padding: 50px 0;
+        padding: 0;
         background-image: url(../img/shenail_bg7.webp);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
     }
+}
 
-    @media (max-width: 600px) {
-        .lynnSheNail_page11 {
-            width: 100%;
-            padding: 0;
-            background-image: url(../img/shenail_bg7.webp);
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-size: cover;
-        }
-    }
+.lynn_page5_title>img {
+    width: 100%;
+    max-width: 630px;
+    margin-top: -100px;
+}
 
+@media (max-width: 765px) {
     .lynn_page5_title>img {
         width: 100%;
-        max-width: 630px;
+        max-width: 500px;
         margin-top: -100px;
     }
+}
 
-    @media (max-width: 765px) {
-        .lynn_page5_title>img {
-            width: 100%;
-            max-width: 500px;
-            margin-top: -100px;
-        }
-    }
-
-    @media (max-width: 414px) {
-        .lynn_page5_title>img {
-            width: 100%;
-            max-width: 370px;
-            margin-top: -60px;
-        }
-    }
-
-    .lynnSheNail_page11_text {
-        margin: auto;
+@media (max-width: 414px) {
+    .lynn_page5_title>img {
         width: 100%;
+        max-width: 370px;
+        margin-top: -60px;
+    }
+}
+
+.lynnSheNail_page11_text {
+    margin: auto;
+    width: 100%;
+    max-width: 1000px;
+    color: #90594c;
+    font-size: 24px;
+    letter-spacing: 4px;
+    line-height: 50px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+@media (max-width: 630px) {
+    .lynnSheNail_page11_text {
+        width: 90%;
         max-width: 1000px;
         color: #90594c;
-        font-size: 24px;
+        font-size: 18px;
         letter-spacing: 4px;
-        line-height: 50px;
+        line-height: 30px;
         font-weight: 600;
-        margin-top: 50px;
+        margin-top: 30px;
     }
+}
 
-    @media (max-width: 630px) {
-        .lynnSheNail_page11_text {
-            width: 90%;
-            max-width: 1000px;
-            color: #90594c;
-            font-size: 18px;
-            letter-spacing: 4px;
-            line-height: 30px;
-            font-weight: 600;
-            margin-top: 30px;
-        }
-    }
-
-    @media (max-width: 414px) {
-        .lynnSheNail_page11_text {
-            width: 90%;
-            max-width: 1000px;
-            color: #90594c;
-            font-size: 16px;
-            letter-spacing: 2px;
-            line-height: 30px;
-            font-weight: 600;
-            margin-top: 10px;
-            text-align: left;
-            width: 90%;
-            margin: auto;
-        }
-    }
-
-    .lynnSkin_page8_img img {
-        width: 100%;
-        max-width: 635px;
-        margin-top: 50px;
-    }
-
-    @media (max-width: 630px) {
-        .lynnSkin_page8_img img {
-            width: 90%;
-            margin-top: 20px;
-        }
-    }
-
-    .lynnSkin_page7 {
-        width: 100%;
-        padding: 50px 0;
-    }
-
-    @media (max-width: 680px) {
-        .lynnSkin_page7 {
-            padding: 20px 0;
-        }
-    }
-
-    .lynnSheNail_page10_content {
-        width: 100%;
+@media (max-width: 414px) {
+    .lynnSheNail_page11_text {
+        width: 90%;
         max-width: 1000px;
+        color: #90594c;
+        font-size: 16px;
+        letter-spacing: 2px;
+        line-height: 30px;
+        font-weight: 600;
+        margin-top: 10px;
+        text-align: left;
+        width: 90%;
         margin: auto;
-        margin-bottom: 50px;
     }
+}
 
+.lynnSkin_page8_img img {
+    width: 100%;
+    max-width: 635px;
+    margin-top: 50px;
+}
+
+@media (max-width: 630px) {
+    .lynnSkin_page8_img img {
+        width: 90%;
+        margin-top: 20px;
+    }
+}
+
+.lynnSkin_page7 {
+    width: 100%;
+    padding: 50px 0;
+}
+
+@media (max-width: 680px) {
+    .lynnSkin_page7 {
+        padding: 20px 0;
+    }
+}
+
+.lynnSheNail_page10_content {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.lynn_page2_item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 414px) {
     .lynn_page2_item {
+        width: 100%;
+        max-width: 330px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-content: center;
         align-items: center;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
+}
 
-    @media (max-width: 414px) {
-        .lynn_page2_item {
-            width: 100%;
-            max-width: 330px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-content: center;
-            align-items: center;
-            margin-bottom: 30px;
-        }
+@media (max-width: 765px) {
+    .lynn_page2_item>img {
+        width: 150px;
+
     }
+}
 
-    @media (max-width: 765px) {
-        .lynn_page2_item>img {
-            width: 150px;
-
-        }
+@media (max-width: 414px) {
+    .lynn_page2_item>img {
+        width: 130px;
     }
+}
 
-    @media (max-width: 414px) {
-        .lynn_page2_item>img {
-            width: 130px;
-        }
-    }
+.lynnSheNail_page10_text {
+    margin: auto;
+    width: 100%;
+    max-width: 500px;
+    color: #91594c;
+    font-size: 21px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    line-height: 48px;
+}
 
+@media (max-width: 500px) {
     .lynnSheNail_page10_text {
         margin: auto;
         width: 100%;
-        max-width: 500px;
+        max-width: 375px;
         color: #91594c;
-        font-size: 21px;
+        font-size: 18px;
         letter-spacing: 2px;
         font-weight: 600;
-        line-height: 48px;
+        line-height: 36px;
     }
+}
 
-    @media (max-width: 500px) {
-        .lynnSheNail_page10_text {
-            margin: auto;
-            width: 100%;
-            max-width: 375px;
-            color: #91594c;
-            font-size: 18px;
-            letter-spacing: 2px;
-            font-weight: 600;
-            line-height: 36px;
-        }
-    }
+.lynnSheNail_page10_text>ul>li:nth-child(2) {
+    line-height: 0px;
+    text-align: right;
+    margin-top: -10px;
+    margin-right: 90px;
+}
 
+@media (max-width: 500px) {
     .lynnSheNail_page10_text>ul>li:nth-child(2) {
         line-height: 0px;
         text-align: right;
-        margin-top: -10px;
-        margin-right: 90px;
+        margin-top: -5px;
+        margin-right: 35px;
     }
+}
 
-    @media (max-width: 500px) {
-        .lynnSheNail_page10_text>ul>li:nth-child(2) {
-            line-height: 0px;
-            text-align: right;
-            margin-top: -5px;
-            margin-right: 35px;
-        }
-    }
+.lynnSheNail_page10_text>ul {
+    margin-bottom: 50px;
+}
 
-    .lynnSheNail_page10_text>ul {
-        margin-bottom: 50px;
-    }
+.lynnSheNail_page10_text img {
+    width: 100%;
+    max-width: 80px;
+    margin: 0 10px;
+}
 
-    .lynnSheNail_page10_text img {
-        width: 100%;
-        max-width: 80px;
-        margin: 0 10px;
-    }
+.embed-container iframe {
+    width: 650px;
+    height: 350px;
+}
 
+@media (max-width: 650px) {
     .embed-container iframe {
-        width: 650px;
-        height: 350px;
+        width: 500px;
+        height: 270px;
     }
+}
 
-    @media (max-width: 650px) {
-        .embed-container iframe {
-            width: 500px;
-            height: 270px;
-        }
+@media (max-width: 500px) {
+    .embed-container iframe {
+        width: 375px;
+        height: 200px;
     }
+}
 
-    @media (max-width: 500px) {
-        .embed-container iframe {
-            width: 375px;
-            height: 200px;
-        }
-    }
+.lynnEyebrow_page12 {
+    width: 100%;
+    padding: 50px 0;
+}
 
+@media (max-width: 680px) {
     .lynnEyebrow_page12 {
-        width: 100%;
-        padding: 50px 0;
+        padding: 20px 0;
     }
+}
 
-    @media (max-width: 680px) {
-        .lynnEyebrow_page12 {
-            padding: 20px 0;
-        }
-    }
+.lynnEyebrow_page12_img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
 
-    .lynnEyebrow_page12_img {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
-    }
+.lynnEyebrow_page12_img img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+}
 
+@media (max-width: 1600px) {
     .lynnEyebrow_page12_img img {
         width: 100%;
-        max-width: 300px;
+        max-width: 200px;
         margin: 10px;
     }
+}
 
-    @media (max-width: 1600px) {
-        .lynnEyebrow_page12_img img {
-            width: 100%;
-            max-width: 200px;
-            margin: 10px;
-        }
+@media (max-width: 440px) {
+    .lynnEyebrow_page12_img img {
+        width: 100%;
+        max-width: 170px;
+        margin: 5px;
     }
+}
 
-    @media (max-width: 440px) {
-        .lynnEyebrow_page12_img img {
-            width: 100%;
-            max-width: 170px;
-            margin: 5px;
-        }
-    }
+.lynnEyebrow_page9_title {
+    margin: 20px;
+}
 
-    .lynnEyebrow_page9_title {
-        margin: 20px;
-    }
+.lynnEyebrow_page9_title>img {
+    width: 100%;
+    max-width: 320px;
+}
 
+@media (max-width: 630px) {
     .lynnEyebrow_page9_title>img {
         width: 100%;
-        max-width: 320px;
+        max-width: 260px;
     }
+}
 
-    @media (max-width: 630px) {
-        .lynnEyebrow_page9_title>img {
-            width: 100%;
-            max-width: 260px;
-        }
-    }
+.lynn_page3_text {
+    color: #90594c;
+    font-size: 24px;
+    letter-spacing: 4px;
+    line-height: 50px;
+    font-weight: 600;
+    margin-top: 50px;
+}
 
+@media (max-width: 630px) {
     .lynn_page3_text {
         color: #90594c;
-        font-size: 24px;
+        font-size: 18px;
         letter-spacing: 4px;
-        line-height: 50px;
+        line-height: 30px;
         font-weight: 600;
-        margin-top: 50px;
+        margin-top: 30px;
     }
+}
 
-    @media (max-width: 630px) {
-        .lynn_page3_text {
-            color: #90594c;
-            font-size: 18px;
-            letter-spacing: 4px;
-            line-height: 30px;
-            font-weight: 600;
-            margin-top: 30px;
-        }
+@media (max-width: 414px) {
+    .lynn_page3_text {
+        color: #90594c;
+        font-size: 16px;
+        letter-spacing: 2px;
+        line-height: 30px;
+        font-weight: 600;
+        margin-top: 10px;
+        text-align: center;
+        width: 90%;
+        margin: auto;
     }
+}
 
-    @media (max-width: 414px) {
-        .lynn_page3_text {
-            color: #90594c;
-            font-size: 16px;
-            letter-spacing: 2px;
-            line-height: 30px;
-            font-weight: 600;
-            margin-top: 10px;
-            text-align: center;
-            width: 90%;
-            margin: auto;
-        }
-    }
+.lynn_page3_text span {
+    color: #d17232;
+    font-size: 32px;
+    letter-spacing: 4px;
+    line-height: 50px;
+    font-weight: 600;
+    border-bottom: 2px solid #d17232;
+    padding-bottom: 2px;
+}
 
+@media (max-width: 630px) {
     .lynn_page3_text span {
         color: #d17232;
-        font-size: 32px;
+        font-size: 21px;
         letter-spacing: 4px;
-        line-height: 50px;
+        line-height: 30px;
         font-weight: 600;
         border-bottom: 2px solid #d17232;
         padding-bottom: 2px;
     }
+}
 
-    @media (max-width: 630px) {
-        .lynn_page3_text span {
-            color: #d17232;
-            font-size: 21px;
-            letter-spacing: 4px;
-            line-height: 30px;
-            font-weight: 600;
-            border-bottom: 2px solid #d17232;
-            padding-bottom: 2px;
-        }
+@media (max-width: 414px) {
+    .lynn_page3_text span {
+        color: #d17232;
+        font-size: 18px;
+        letter-spacing: 2px;
+        line-height: 30px;
+        font-weight: 600;
+        margin-top: 10px;
+        text-align: left;
+        width: 90%;
+        margin: auto;
+        border-bottom: 1px solid #d17232;
+        padding-bottom: 1px;
     }
+}
 
-    @media (max-width: 414px) {
-        .lynn_page3_text span {
-            color: #d17232;
-            font-size: 18px;
-            letter-spacing: 2px;
-            line-height: 30px;
-            font-weight: 600;
-            margin-top: 10px;
-            text-align: left;
-            width: 90%;
-            margin: auto;
-            border-bottom: 1px solid #d17232;
-            padding-bottom: 1px;
-        }
-    }
+.lynn_page6_item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    margin: 100px 0;
+}
 
+@media (max-width: 1285px) {
     .lynn_page6_item {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-content: center;
         align-items: flex-start;
-        margin: 100px 0;
+        margin: 50px 0;
     }
+}
 
-    @media (max-width: 1285px) {
-        .lynn_page6_item {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-content: center;
-            align-items: flex-start;
-            margin: 50px 0;
-        }
+@media (max-width: 500px) {
+    .lynn_page6_item {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: flex-start;
+        margin: 30px 0;
     }
+}
 
-    @media (max-width: 500px) {
-        .lynn_page6_item {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-content: center;
-            align-items: flex-start;
-            margin: 30px 0;
-        }
-    }
+.lynn_page6_item>ul {
+    margin: 10px;
+}
 
-    .lynn_page6_item>ul {
-        margin: 10px;
-    }
+.lynn_page6_item>ul>li>img {
+    width: 100%;
+    max-width: 140px;
+}
 
+@media (max-width: 1285px) {
     .lynn_page6_item>ul>li>img {
         width: 100%;
-        max-width: 140px;
+        max-width: 100px;
     }
+}
 
-    @media (max-width: 1285px) {
-        .lynn_page6_item>ul>li>img {
-            width: 100%;
-            max-width: 100px;
-        }
-    }
+.lynn_page6_item>ul>li {
+    color: #90594c;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
 
+@media (max-width: 1285px) {
     .lynn_page6_item>ul>li {
         color: #90594c;
-        font-size: 18px;
-        letter-spacing: 2px;
+        font-size: 16px;
+        letter-spacing: 1px;
         font-weight: 600;
     }
+}
 
-    @media (max-width: 1285px) {
-        .lynn_page6_item>ul>li {
-            color: #90594c;
-            font-size: 16px;
-            letter-spacing: 1px;
-            font-weight: 600;
-        }
-    }
+.lynn_page6_button img {
+    width: 100%;
+    max-width: 285px;
+}
 
+@media (max-width: 630px) {
     .lynn_page6_button img {
         width: 100%;
-        max-width: 285px;
+        max-width: 200px;
     }
+}
 
-    @media (max-width: 630px) {
-        .lynn_page6_button img {
-            width: 100%;
-            max-width: 200px;
-        }
-    }
+.lynn_page6_text {
+    color: #90594c;
+    font-size: 30px;
+    letter-spacing: 6px;
+    font-weight: 600;
+    padding-top: 50px;
+}
 
+@media (max-width: 800px) {
     .lynn_page6_text {
         color: #90594c;
-        font-size: 30px;
-        letter-spacing: 6px;
+        font-size: 21px;
+        letter-spacing: 3px;
         font-weight: 600;
-        padding-top: 50px;
+        padding-top: 30px;
     }
+}
 
-    @media (max-width: 800px) {
-        .lynn_page6_text {
-            color: #90594c;
-            font-size: 21px;
-            letter-spacing: 3px;
-            font-weight: 600;
-            padding-top: 30px;
-        }
+@media (max-width: 532px) {
+    .lynn_page6_text {
+        color: #90594c;
+        font-size: 18px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        padding-top: 20px;
     }
+}
 
-    @media (max-width: 532px) {
-        .lynn_page6_text {
-            color: #90594c;
-            font-size: 18px;
-            letter-spacing: 1px;
-            font-weight: 600;
-            padding-top: 20px;
-        }
+@media (max-width: 414px) {
+    .lynn_page6_text {
+        width: 90%;
+        margin: auto;
+        color: #90594c;
+        font-size: 18px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        padding-top: 20px;
+        text-align: left;
     }
+}
 
-    @media (max-width: 414px) {
-        .lynn_page6_text {
-            width: 90%;
-            margin: auto;
-            color: #90594c;
-            font-size: 18px;
-            letter-spacing: 1px;
-            font-weight: 600;
-            padding-top: 20px;
-            text-align: left;
-        }
-    }
+#gotop {
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20%;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    padding-top: 10px;
+    background-color: #C3623B;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 40px;
+    -o-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    transition: all .3s linear;
+}
 
+#gotop:hover {
+    background-color: #603813;
+    -o-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+@media (max-width: 480px) {
     #gotop {
         display: none;
         position: fixed;
-        right: 20px;
+        right: 10px;
         bottom: 20%;
-        width: 50px;
-        height: 50px;
+        width: 30px;
+        height: 30px;
         font-size: 20px;
-        padding-top: 10px;
-        background-color: #C3623B;
-        color: #fff;
+        padding-top: 4px;
+        font-size: 16px;
+        background: rgba(195, 98, 59, .5);
+        color: white;
         cursor: pointer;
         border-radius: 40px;
         -o-transition: all .3s linear;
@@ -2746,43 +2776,14 @@
         -moz-transition: all .3s linear;
         transition: all .3s linear;
     }
+}
 
+@media (max-width: 480px) {
     #gotop:hover {
-        background-color: #603813;
+        background: rgba(195, 98, 59, 1);
         -o-transition: all .3s linear;
         -webkit-transition: all .3s linear;
         -moz-transition: all .3s linear;
         transition: all .3s linear;
     }
-
-    @media (max-width: 480px) {
-        #gotop {
-            display: none;
-            position: fixed;
-            right: 10px;
-            bottom: 20%;
-            width: 30px;
-            height: 30px;
-            font-size: 20px;
-            padding-top: 4px;
-            font-size: 16px;
-            background: rgba(195, 98, 59, .5);
-            color: white;
-            cursor: pointer;
-            border-radius: 40px;
-            -o-transition: all .3s linear;
-            -webkit-transition: all .3s linear;
-            -moz-transition: all .3s linear;
-            transition: all .3s linear;
-        }
-    }
-
-    @media (max-width: 480px) {
-        #gotop:hover {
-            background: rgba(195, 98, 59, 1);
-            -o-transition: all .3s linear;
-            -webkit-transition: all .3s linear;
-            -moz-transition: all .3s linear;
-            transition: all .3s linear;
-        }
-    }
+}
