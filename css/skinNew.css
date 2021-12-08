@@ -1238,16 +1238,10 @@
 }
 .lynnSkin_page4_item {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     align-items: flex-start;
-}
-
-@media (max-width: 1000px) {
-    .lynnSkin_page4_item {
-        flex-wrap: wrap;
-    }
 }
 
 .lynnSkin_page4_item1 {
@@ -1258,14 +1252,8 @@
     -moz-border-radius: 50px;
     border-radius: 50px;
     padding: 5px;
-    margin: 0 10px;
+    margin: 10px;
     box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.3);
-}
-
-@media (max-width: 1000px) {
-    .lynnSkin_page4_item1 {
-        margin: 10px;
-    }
 }
 
 .lynnSkin_page4_item1_1 {
