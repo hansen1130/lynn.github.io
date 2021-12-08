@@ -1444,12 +1444,14 @@
         font-size: 14px;
     }
 }
-
-.lynnSkin_item2 {
+.lynnSkin_item2{
     width: 100%;
     max-width: 300px;
     margin: auto;
     margin-top: 30px;
+}
+.lynnSkin_item2 a{
+    padding:10px 20px;
     color: #fff;
     font-size: 16px;
     letter-spacing: 2px;
@@ -1463,7 +1465,7 @@
 }
 
 @media (max-width: 500px) {
-    .lynnSkin_item2 {
+    .lynnSkin_item2 a{
         font-size: 14px;
     }
 }
@@ -1484,7 +1486,7 @@
     }
 }
 
-.lynnSkin_item2>span {
+.lynnSkin_item2 a>span {
     background-color: #fff;
     color: #91594c;
     font-size: 14px;
@@ -1495,7 +1497,7 @@
 }
 
 @media (max-width: 500px) {
-    .lynnSkin_item2>span {
+    .lynnSkin_item2 a>span {
         font-size: 12px;
     }
 }
