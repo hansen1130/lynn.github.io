@@ -417,12 +417,6 @@
     margin-bottom: 30px;
 }
 
-@media (max-width: 536px) {
-    .lynnDepilation_page1_benefit_item ul {
-        margin-bottom: 10px;
-    }
-}
-
 .lynnDepilation_page1_benefit_item ul li:nth-child(1) {
     color: #d18e41;
     font-size: 2vmin;
@@ -451,6 +445,13 @@
     -webkit-transition: all .3s linear;
     -moz-transition: all .3s linear;
     transition: all .3s linear;
+}
+
+@media (max-width: 630px) {
+    .lynnDepilation_page1_benefit_item a {
+        font-size: 4vmin;
+        letter-spacing: .2vmin;
+    }
 }
 
 .lynnDepilation_page1_benefit_item a:hover {
