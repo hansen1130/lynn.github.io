@@ -2164,23 +2164,23 @@
 
 .lynndepilation_page7_line1 {
     position: absolute;
-    top: 215px;
-    left: 23%;
+    top: 240px;
+    left: 21%;
     width: 21%;
     border-bottom: 1px solid #b88a5e;
 }
 
 @media (max-width: 1566px) {
     .lynndepilation_page7_line1 {
-        left: 27%;
-        width: 17%;
+        left: 26%;
+        width: 13%;
     }
 }
 
 @media (max-width: 1440px) {
     .lynndepilation_page7_line1 {
-        left: 25%;
-        width: 17%;
+        left: 22%;
+        width: 15%;
     }
 }
 
@@ -2192,8 +2192,8 @@
 
 .lynndepilation_page7_line2 {
     position: absolute;
-    top: 535px;
-    left: 30%;
+    top: 545px;
+    left: 29%;
     width: 14%;
     border-bottom: 1px solid #b88a5e;
 }
@@ -2201,7 +2201,7 @@
 @media (max-width: 1566px) {
     .lynndepilation_page7_line2 {
         left: 32%;
-        width: 10%;
+        width: 8%;
     }
 }
 
@@ -2213,9 +2213,9 @@
 
 .lynndepilation_page7_line3 {
     position: absolute;
-    top: 407px;
-    right: 24%;
-    width: 18%;
+    top: 390px;
+    right: 20%;
+    width: 23%;
     border-bottom: 1px solid #b88a5e;
 }
 
