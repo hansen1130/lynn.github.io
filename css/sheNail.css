@@ -201,9 +201,8 @@
 
 @media (max-width: 500px) {
     .lynnSheNail_mark {
-        font-size: 1.2vmin;
-        line-height: 2vmin;
-        padding: 0 5px;
+        font-size: 3vmin;
+        padding: 5px;
     }
 }
 
@@ -280,6 +279,12 @@
 .lynnSheNail_price_item2 ul li>span {
     font-size: 1.5vmin;
     letter-spacing: .1vmin;
+}
+
+@media (max-width: 500px) {
+    .lynnSheNail_price_item2 ul li>span {
+        font-size: 3vmin;
+    }
 }
 
 .lynnSheNail_page2 {
@@ -753,7 +758,7 @@
 
 .lynnSheNail_page4_content1_btn>a {
     color: #fff;
-    font-size: 1.5vmin;
+    font-size: 3vmin;
     letter-spacing: 2px;
     line-height: 36px;
     font-weight: 600;
@@ -771,7 +776,7 @@
 
 .lynnSheNail_page4_content1_btn2>a {
     color: #fff;
-    font-size: 1.5vmin;
+    font-size: 3vmin;
     letter-spacing: 2px;
     line-height: 36px;
     font-weight: 600;
