@@ -951,34 +951,20 @@
 
 .lynnSheNail_page5_mobile_step>ul>li {
     color: #333;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 1px;
     line-height: 28px;
     text-align: left;
     font-weight: 600;
 }
 
-@media (max-width: 899px) {
-    .lynnSheNail_page5_mobile_step>ul>li {
-        font-size: 16px;
-    }
-}
-
 .lynnSheNail_page5_mobile_step>ul>li:nth-child(2) {
     color: #a67b68;
-    font-size: 21px;
+    font-size: 18px;
     letter-spacing: 2px;
-    line-height: 36px;
+    line-height: 24px;
 }
 
-@media (max-width: 899px) {
-    .lynnSheNail_page5_mobile_step>ul>li:nth-child(2) {
-        color: #a67b68;
-        font-size: 18px;
-        letter-spacing: 2px;
-        line-height: 24px;
-    }
-}
 
 :root .lynnSheNail_page5_mobile .wrap {
     position: absolute;
@@ -987,15 +973,9 @@
 
 .lynnSheNail_page6 {
     width: 100%;
-    padding: 50px 0;
+    padding: 30px 0;
 }
 
-@media (max-width: 899px) {
-    .lynnSheNail_page6 {
-        width: 100%;
-        padding: 30px 0;
-    }
-}
 
 .lynnSheNail_page6_title {
     color: #fff;
