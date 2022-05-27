@@ -124,7 +124,7 @@ html {
 
 .portfolio_title {
     font-family: "Noto Serif TC";
-    font-size: 3rem;
+    font-size: 2rem;
     color: #805649;
     letter-spacing: .3rem;
     text-align: center;
@@ -133,7 +133,7 @@ html {
 
 @media (max-width: 630px) {
     .portfolio_title {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }
 
