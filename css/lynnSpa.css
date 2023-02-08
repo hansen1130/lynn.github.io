@@ -226,6 +226,7 @@ html {
 }
 
 .lynnSpa_page1_2_bt {
+    display:none;
     margin-bottom: 4rem;
 }
 
